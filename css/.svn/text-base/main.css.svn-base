@@ -1,0 +1,229 @@
+/* line 4, ../sass/main.scss */
+* {
+  background: #fff;
+  font-family: Gill Sans std, helvetica, arial;
+  color: #333333;
+  font-weight: 200;
+}
+
+/* line 12, ../sass/main.scss */
+#container {
+  margin: 0 auto;
+  width: 780px;
+  background: #d5dae0;
+  text-align: center;
+}
+
+/* line 21, ../sass/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 23, ../sass/main.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 25, ../sass/main.scss */
+.bodyLink {
+  color: #386085;
+}
+
+/* line 28, ../sass/main.scss */
+#navigation {
+  width: 780px;
+  float: left;
+  padding-left: 52px;
+}
+
+/* line 36, ../sass/main.scss */
+#navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 42, ../sass/main.scss */
+#navigation ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+/* line 47, ../sass/main.scss */
+#navigation li a {
+  display: block;
+  text-decoration: none;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 12px;
+}
+
+/* line 56, ../sass/main.scss */
+#navigation li a:hover {
+  text-decoration: underline;
+}
+
+/* line 61, ../sass/main.scss */
+#content {
+  clear: left;
+  padding: 30px;
+  height: 100%;
+  padding-top: 10px;
+  float: left;
+  width: 780px;
+}
+
+/* line 71, ../sass/main.scss */
+#content p {
+  text-align: left;
+}
+
+/* line 75, ../sass/main.scss */
+#content h2 {
+  text-align: left;
+}
+
+/* line 81, ../sass/main.scss */
+#content-hp {
+  clear: left;
+  padding: 30px;
+  background-image: url(/images/clever-biscuit-gang.jpg);
+  background-repeat: no-repeat;
+  background-position: center 50px;
+  height: 320px;
+  padding-top: 280px;
+  float: left;
+  width: 780px;
+}
+
+/* line 93, ../sass/main.scss */
+#content-hp h1 {
+  margin-bottom: -5px;
+}
+
+/* line 97, ../sass/main.scss */
+#person {
+  padding-top: 30px;
+  width: 750px;
+  float: right;
+}
+
+/* line 103, ../sass/main.scss */
+#Mae h2 {
+  text-align: right;
+}
+
+/* line 108, ../sass/main.scss */
+#ChrisPic {
+  float: left;
+  width: 160px;
+  clear: both;
+}
+
+/* line 114, ../sass/main.scss */
+#MaePic {
+  float: right;
+  width: 160px;
+}
+
+/* line 119, ../sass/main.scss */
+.title {
+  font-weight: 200;
+  font-size: 90px;
+}
+
+/* line 125, ../sass/main.scss */
+#content h2 {
+  color: #000;
+  font-size: 160%;
+  margin: 0 0 .5em;
+}
+
+/* line 132, ../sass/main.scss */
+#footer {
+  text-align: center;
+  float: left;
+  padding: 20px;
+  height: 1%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 325px) {
+  /* line 145, ../sass/main.scss */
+  #container {
+    margin: 5px;
+    width: 295px;
+    color: red;
+  }
+
+  /* line 151, ../sass/main.scss */
+  #navigation {
+    width: inherit;
+    padding-left: 0px;
+  }
+
+  /* line 157, ../sass/main.scss */
+  #navigation li a {
+    float: none;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+  }
+
+  /* line 164, ../sass/main.scss */
+  .selected a {
+    background-color: #cccccc !important;
+  }
+
+  /* line 169, ../sass/main.scss */
+  .title {
+    font-size: 2em;
+  }
+
+  /* line 173, ../sass/main.scss */
+  #content-hp {
+    padding: 175px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    background-image: url(/images/clever-biscuit-gang-320.png);
+    background-repeat: no-repeat;
+  }
+
+  /* line 183, ../sass/main.scss */
+  #content {
+    clear: left;
+    padding: 1px;
+    height: 100%;
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+  }
+
+  /* line 193, ../sass/main.scss */
+  #footer {
+    text-align: center;
+    float: left;
+    padding: 0px;
+    height: 1%;
+    width: 100%;
+  }
+
+  /* line 202, ../sass/main.scss */
+  #person {
+    padding-top: 30px;
+    width: 100%;
+    float: right;
+  }
+
+  /* line 209, ../sass/main.scss */
+  #ChrisPic {
+    float: none;
+    margin: 0 auto;
+  }
+
+  /* line 214, ../sass/main.scss */
+  #MaePic {
+    float: none;
+    margin: 0 auto;
+  }
+}

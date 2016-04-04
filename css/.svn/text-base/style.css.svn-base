@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+		background:#fff; 
+		font-family: Gill Sans, helvetica, arial;
+		color:#333;
+		font-weight:200;
+
+}
+#container
+{
+	margin: 0 auto;
+	width: 780px;
+	background:#d5dae0;
+	text-align:center;
+	
+	
+}
+
+a {text-decoration:none;}
+
+a:hover {text-decoration:underline;}
+
+.bodyLink {color:#386085;}
+
+#navigation
+{
+
+	width: 780px;
+	float:left;
+	padding-left: 52px;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a {
+display: block;
+text-decoration: none;
+float: left;
+padding-left: 30px;
+padding-right: 30px;
+margin-left: 12px;
+}
+
+#navigation li a:hover {
+	text-decoration:underline;
+
+}
+
+#content {
+clear: left;
+padding: 30px;
+height: 100%;
+padding-top: 10px;
+float: left;
+width: 780px;
+}
+# content img {
+	left:
+}
+
+#content p {
+	text-align:left;
+}
+
+#content h2 {
+	text-align:left;
+}
+
+
+#content-hp
+{
+	clear: left;
+	padding: 30px;
+	background-image:url(/images/clever-biscuit-gang.jpg);
+	background-repeat:no-repeat;
+	background-position:center 50px;
+	height:320px;
+	padding-top: 280px;
+	float:left;
+	width:780px;
+}
+
+#content-hp h1 {
+	margin-bottom: -5px;	
+}
+
+#person {
+	padding-top: 30px;
+	width: 750px;
+	float: right;
+}
+
+#Mae h2 {
+	text-align:right;
+}
+	
+
+#ChrisPic {
+	float:left;
+	width:160px;
+	clear: both;
+}
+
+#MaePic {
+	float:right;
+	width:160px;
+}
+
+.title {
+	font-weight:200;
+	font-size:90px;
+}
+
+#content h2
+{
+	color:#000;
+	font-size: 160%;
+	margin: 0 0 .5em;
+}
+
+#footer
+{
+	text-align: center;
+	float:left;
+	padding: 20px;
+	height: 1%;
+	width:780px;
+	</style>
+	
+	
